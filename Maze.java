@@ -26,7 +26,7 @@ public class Maze
             { WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL, WALL},
         };
                 
- GridViewer.view(grid);
+ Viewer.view(grid);
 
         
         String solution;
@@ -106,8 +106,9 @@ public class Maze
         {
             System.out.println("MESSAGE 5"); // Did not reach the end.
         }
-        
-GridViewer.view(grid);
+    
+
+Viewer.view(grid);
 
     }
 }
